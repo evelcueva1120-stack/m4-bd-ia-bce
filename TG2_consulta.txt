@@ -1,6 +1,6 @@
 CONSULTA DOCUMENTADA
-1. ¿De donde sale?   Direccion o ruta exacta: ___    Fecha del corte de la fuente: ___
-2. ¿Que se pidio?    Parametros (juntos, con su valor): ___
-3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados: ___
-4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: ___
-5. ¿Quien y cuando?  Autor: ___    Fecha: ___    Licencia de la fuente (o 'no la declara'): ___
+1. ¿De donde sale?   Direccion o ruta exacta:datos/exportaciones.csv y datos/catalogo.c   Fecha del corte de la fuente: datos sinteticos
+2. ¿Que se pidio?    Parametros (juntos, con su valor): RUTA_EXPORTACIONES = "datos/exportaciones.csv"; RUTA_CATALOGO = "datos
+3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados:filas y las columnas producto, monto_mm_usd y codigo. Total esperado: 8679.13 millones de USD. Se anticipaba que «Atún y pescado» no tuviera código en el catálogo.
+4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: Proceso etl, se normalizo datos, instalo libreeria schulede, comprobo datos
+5. ¿Quien y cuando?  Autor:Jonathan Tito, Actualizado: Evelyn Cueva   Fecha: 26 de octubre    Licencia de la fuente (o 'no la declara'): no aplica datos sinteticos
